@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4C3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#388E3C"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#388E3C"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Buttons Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/add_book_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Book"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/update_book_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Book"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/delete_book_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Book"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/view_books_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Books"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/logout_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
